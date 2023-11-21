@@ -2,6 +2,8 @@
 
 A [ponyfill](https://ponyfill.com) for `Buffer.from`, uses native implementation if available.
 
+Note: This fork is compatible with Cloudflare Workers by explicitly importing node dependencies.
+
 ## Installation
 
 ```sh

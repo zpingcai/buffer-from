@@ -1,5 +1,7 @@
 /* eslint-disable node/no-deprecated-api */
 
+var Buffer = require('buffer').Buffer
+
 var toString = Object.prototype.toString
 
 var isModern = (
